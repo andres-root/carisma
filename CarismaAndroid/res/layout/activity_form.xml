@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#A4A4A4" >
+
+
+      <ScrollView   
+	    android:id="@+id/scroller"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:fillViewport="true"
+	    android:layout_marginLeft="10dip"
+	    android:layout_marginRight="10dip"
+	    android:layout_marginBottom="10dip"
+	    android:layout_marginTop="10dip"
+	 	android:background="@drawable/container"
+	    >
+        
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+             >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"              
+                android:background="@drawable/info"
+                 >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dip"
+                        android:layout_marginLeft="10dip"
+                        android:textColor="@color/white"
+                        android:text="Titulo"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    
+
+                </TableRow>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="0dip" >
+                    
+                    <View
+                android:id="@+id/viewUno"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                                           
+                android:background="#4B088A" 
+                android:layout_marginTop="5dip"
+                android:visibility="invisible"
+                />
+                   
+            </RelativeLayout>
+            
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dip" >
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dip"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_weight="1"
+                        android:hint="Nombre"
+                        android:ems="10"
+                        android:inputType="text"                      
+                         >
+                    </EditText>
+                </TableRow>
+
+            
+            
+            
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                    <Spinner
+			            android:id="@+id/age"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="10dp"
+		                android:layout_marginLeft="10dp"
+		                android:layout_marginRight="10dp"
+		                android:layout_weight="1"                            
+					/>
+                    
+                </TableRow>
+                
+			 <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/editText20"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="Correo Electronico"
+                        android:layout_marginTop="30dip"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:ems="10"
+                        android:inputType="textPassword" 
+                        
+                        />
+              </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+            </TableRow>
+
+             <RelativeLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_vertical"
+                 android:gravity="center_horizontal" >
+                    
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="50dip"
+                        android:background="@drawable/round_button"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:onClick="uploadForm"
+                        android:text="xxxEntroxxx" />
+                    
+                </RelativeLayout>
+            
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+            </TableRow>
+
+        </TableLayout>
+        
+ </ScrollView>
+ 
+</RelativeLayout>

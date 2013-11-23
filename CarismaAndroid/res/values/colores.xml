@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="main_button">#151515</color>
+<color name="white">#FFFFFF</color>
+<color name="trans_title">#80ff0000</color>
+<color name="Blue">#2E64FE</color>
+<color name="StrongBlue">#0101DF</color>
+<color name="Black">#000000</color>
+<color name="TranslucentRed">#80ff0000</color>
+</resources>
+
