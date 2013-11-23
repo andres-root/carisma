@@ -1,5 +1,5 @@
 package com.bogota.carisma.view;
 
-public class ViewSplash {
+public class ViewSplash  {
 
 }
